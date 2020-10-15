@@ -6,6 +6,9 @@ class Pages extends BaseController
 {
     public function index()
     {
+        // $faker = \Faker\Factory::create();
+        // dd($faker->address);
+
         $data = [
             'title' => 'Home | WebProgrammingUNPAS',
             'tes' => ['satu', 'dua', 'tiga']
